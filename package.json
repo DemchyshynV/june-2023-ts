@@ -1,0 +1,14 @@
+{
+  "name": "untitled3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --project tsconfig.json --watch"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
