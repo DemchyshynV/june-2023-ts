@@ -5,7 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-
+<form name="carForm">
+    <label><input type="text" required pattern="^[a-zA-Zа-яА-яёЁіІїЇ]{1,20}$" placeholder="brand" name="brand"></label>
+    <label><input type="number" min="0" max="1000000" required placeholder="price" name="price"></label>
+    <label><input type="number" required min="1990" max="2023" placeholder="year" name="year"></label>
+    <button>save</button>
+</form>
+<div id="carContainer"></div>
 <script src="./dist/index.js"></script>
 </body>
 </html>
