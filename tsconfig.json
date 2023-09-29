@@ -19,6 +19,9 @@
     "noFallthroughCasesInSwitch": false
   },
   "files": [
-    "index.ts"
+//    "index.ts"
+//    "callback.ts"
+//    "async.ts"
+    "stayAlive.ts"
   ]
 }
